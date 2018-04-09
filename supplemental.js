@@ -31,7 +31,7 @@ function palindrome(string) {
       oddCharArray.push(string[i]);
     }
   }
-  console.log(`${oddCharArray} array of odd characters`);
+  console.log(`${oddCharArray}: array of odd characters`);
   if (oddCharArray.length > 1) {
     return false;
   } else {
